@@ -1,3 +1,23 @@
+# 第一次运行时：
+配置环境
+```bash
+# 使用conda创建环境（推荐）
+conda create -n multimodal_rag python=3.11
+conda activate multimodal_rag
+```
+接下来一键安装核心依赖
+
+```bash
+# 进入项目目录
+cd pc_multimodal_rag/backend
+
+# 安装核心依赖包
+pip install -r requirements_service.txt
+```
+
+...后面按照讲义里的操作继续进行
+
+# 之后每次运行时：
 
 在第一个bash窗口：
 ```bash
