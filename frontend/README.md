@@ -388,8 +388,3 @@ VITE_USE_MOCK_API=true
 ## 许可证
 
 MIT License
-
-## 联系方式
-
-- 课程: 赋范空间公开课
-- 项目: 多模态文档检索 RAG（VLM）

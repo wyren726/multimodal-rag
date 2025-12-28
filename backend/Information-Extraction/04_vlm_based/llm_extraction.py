@@ -832,6 +832,6 @@ async def main(pdf_file, output_dir="output"):
 
 
 if __name__ == "__main__":
-    pdf_file = "/Users/xiaonuo_1/Desktop/赋范空间/learn_data/阿里开发手册-泰山版.pdf"
-    output = "/Users/xiaonuo_1/Desktop/赋范空间/Information_Extraction/LLM_extraction/output_gpt"
+    pdf_file = "/home/wyren/multimodal-rag/backend/data/阿里开发手册-泰山版.pdf"
+    output = "./Information_Extraction/LLM_extraction/output_gpt"
     asyncio.run(main(pdf_file=pdf_file, output_dir=output))

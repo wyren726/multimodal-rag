@@ -1,7 +1,7 @@
 ﻿from gptpdf import parse_pdf
 
-pdf_path = '/Users/xiaonuo_1/Desktop/赋范空间/learn_data/阿里开发手册-泰山版.pdf'
-output_dir = '/Users/xiaonuo_1/Desktop/赋范空间/Information_Extraction/LLM_extraction/gptpdf/output/阿里开发手册-泰山版'  # 结果（图片、output.md）会写到这里
+pdf_path = '/home/wyren/multimodal-rag/backend/data/阿里开发手册-泰山版.pdf'
+output_dir = './Information_Extraction/LLM_extraction/gptpdf/output/阿里开发手册-泰山版'  # 结果（图片、output.md）会写到这里
 
 
 API_KEY = "sk-0fb27bf3a9a448fa9a6f02bd70e37cd8"

@@ -22,8 +22,9 @@ pip install -r requirements_service.txt
 在第一个bash窗口：
 ```bash
 conda activate multimodal_rag
-
+cd pc_multimodal_rag
 # 启动FastAPI后端服务
+
 python backend/main_service.py
 ```
 
@@ -31,6 +32,8 @@ python backend/main_service.py
 在另一个bash窗口
 ```bash
 conda activate multimodal_rag
+cd pc_multimodal_rag
+
 cd frontend/
 npm run dev
 ```

@@ -16,7 +16,7 @@ export function Header({ mode = "search", onModeChange }: HeaderProps) {
             <Zap className="h-5 w-5 text-primary-foreground" />
           </div>
           <h1 className="text-[20px] font-medium bg-gradient-to-r from-primary via-purple-400 to-primary bg-clip-text text-transparent">
-            赋范空间公开课
+            多模态RAG系统
           </h1>
         </div> */}
 
@@ -53,10 +53,6 @@ export function Header({ mode = "search", onModeChange }: HeaderProps) {
             </div>
           )}
 
-          {/* <Button className="h-10 px-6 bg-gradient-to-r from-primary to-purple-500 hover:from-primary/90 hover:to-purple-500/90 text-primary-foreground shadow-lg shadow-primary/20 border border-primary/20">
-            <Sparkles className="h-4 w-4 mr-2" />
-            点击获取课程优惠
-          </Button> */}
         </div>
       </div>
     </header>
